@@ -18,7 +18,7 @@ public class HonestSignControllerTest {
     private MockMvc mvc;
 
     @Test
-    public void createEmployeeAPI() throws Exception {
+    public void createDealAPI() throws Exception {
         Deal deal = new Deal();
         deal.setCustomer("123456789");
         deal.setSeller("123456789");
